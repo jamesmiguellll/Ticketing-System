@@ -1,23 +1,26 @@
-<<<<<<< Updated upstream
-# Ticketing-System
+# FairTicket: Decentralized Event Ticketing System
 
 # deployed smart contract: CBKE2SGQ7755PNUGVDSXBVBT7OKPJJVYZTWJYR3UJWW5YHQO2Z2UA2TV
 
 <img width="1913" height="867" alt="image" src="https://github.com/user-attachments/assets/28fb40c4-4b31-4575-b254-baf2f1f97b5c" />
-=======
-# FairTicket
 
-**Project Name:** FairTicket
+## Project Description
+Ticket scalping, bot monopolies, and counterfeit tickets make live events frustrating and expensive for real fans. FairTicket is an event ticketing platform using Soroban smart contracts where the smart contract enforces an absolute price ceiling on secondary market resales. If a fan can't make it, they can only resell the ticket NFT up to its face value, cutting out predatory scalpers entirely.
 
-**Problem:** Ticket scalping, bot monopolies, and counterfeit tickets make live events frustrating and expensive for real fans.
+## Project Vision
+To democratize live event access and completely eliminate rent-seeking middlemen in the ticketing ecosystem. By mathematically enforcing price ceilings, FairTicket aligns incentives to ensure fans always get tickets at their real value.
 
-**Solution:** An event ticketing platform using Soroban smart contracts where the smart contract enforces an absolute price ceiling on secondary market resales. If a fan can't make it, they can only resell the ticket NFT up to its face value, cutting out predatory scalpers entirely.
+## Key Features
+- **Anti-Scalping Protocol:** Absolute price ceiling enforced on secondary market resales directly via smart contracts.
+- **Smart Escrow:** Automated transaction processing ensuring buyer and seller security.
+- **Soroban Smart Contracts:** Secure and scalable custom logic handling the ticket lifecycle.
+- **USDC Representation:** Custom payment tokens ensure stable, frictionless value transfer.
 
-**Timeline:** 1-2 weeks (Bootcamp timeframe)
-
-**Stellar Features Used:** Soroban smart contracts, Custom payment tokens (USDC representation)
-
-**Vision and Purpose:** To democratize live event access and completely eliminate rent-seeking middlemen in the ticketing ecosystem. By mathematically enforcing price ceilings, FairTicket aligns incentives to ensure fans always get tickets at their real value.
+## Future Scope
+- **Mobile-first UI:** Abstract away blockchain complexities with simple QR-code based ticket scanning.
+- **Dynamic Pricing Engine:** Organizer-controlled pricing models while maintaining secondary caps.
+- **Local Anchor Integration:** Enable direct fiat-to-ticket purchases in local currencies.
+- **Event Organizer Dashboard:** Granular analytics and management tools for event hosts.
 
 ## Prerequisites
 - Rust toolchain
@@ -49,4 +52,3 @@ soroban contract invoke --id <CONTRACT_ID> --source buyer --network testnet -- b
 
 ## License
 MIT
->>>>>>> Stashed changes
